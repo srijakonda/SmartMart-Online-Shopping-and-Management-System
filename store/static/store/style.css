@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+.hero-section{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/products/kiwi.webp');
+    height:70vh;
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+.overlay{
+    width:100%;
+    height:100%;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 60px;
+}
+
+.logo{
+    font-size:32px;
+    color:#00ffcc;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:18px;
+    transition:0.3s;
+}
+.nav-links a:hover{
+    color:#00ffcc;
+}
+
+.hero-content{
+    text-align:center;
+    margin-top:120px;
+}
+
+.hero-content h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:22px;
+}
+
+.products-title{
+    text-align:center;
+    margin-top:50px;
+    font-size:40px;
+    color:#333;
+}
+.products-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding:40px;
+}
+
+.product-card{
+    background:white;
+    width:300px;
+    margin:20px;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    text-align:center;
+    transition:0.4s;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+}
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.product-card h2{
+    margin-top:15px;
+    color:#222;
+}
+
+.price{
+    font-size:22px;
+    margin:15px 0;
+    color:#27ae60;
+}
+
+.details-btn{
+    display:inline-block;
+    margin-bottom:20px;
+    padding:12px 25px;
+    background:#00b894;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.details-btn:hover{
+    background:#019875;
+}
