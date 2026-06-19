@@ -1,4 +1,4 @@
-# ShopSphere - Online Shopping Platform
+# SmartMart-Online Shopping and Management System
 
 ## Project Overview
 SmartMart-Online Shopping and Management System developed using Django, HTML, CSS, JavaScript, and SQL. The platform allows users to browse products, add items to their cart, and manage purchases through a user-friendly interface. An admin panel is provided to manage products, categories, and customer information.
